@@ -12,6 +12,7 @@ import Footer from './Footer';
 import Contact from './Components/Contact';
 import Work from './Components/Work';
 import { Route, Switch ,Redirect} from 'react-router-dom';
+import Property from './Components/property/Property';
 
 
 
@@ -35,6 +36,8 @@ function App() {
 <Route exact path='/banner' component={Banner}/>
 <Route exact path='/CostSection' component={CostSection}/>
 <Route exact path='/work' component={Work}/>
+<Route exact path='/property' component={Property}/>
+
 <Redirect to='/'/>
 </Switch>
     <Banner/>
@@ -43,6 +46,7 @@ function App() {
   <Services/>
   <Work/>
   <Contact/>
+ 
   <Footer/>
   
    </>

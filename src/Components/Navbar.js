@@ -46,6 +46,11 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li className="nav-item">
+                <NavLink className="nav-link" to="property">
+                Property
+                </NavLink>
+              </li>
+              <li className="nav-item">
                 <a href="tel:+923129090007" className="nav-link">
               
                   Call Today   <br />+92 312 9090007
